@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<link rel="stylesheet" href="../../CSS/style1.css"/>
+	<!-- IMPORT Javascript -->
+	<script type="text/javascript" src="../../ScriptJS/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="../../ScriptJS/jquery.validate.min.js"></script>
+	<script type="text/javascript" src="../../ScriptJS/form.js"> </script>
+	</head>
+	
+	<body>
+		<ul>
+		<li><a  href="../../index.html"> TP Blockchain </a></li>
+		<li><a  href="../index.html"> Bitcoin </a></li>
+		<li><a class="active" href="#Explorer"> Explorer </a></li>
+		</ul>
+		
+		<h1>Formulaire </h1>
+		
+		<form id="formulaire" method="post">
+		<div class="form-group">
+		<label for="Adresse">Adresse</label>
+		<input type="text" class="form-control" id="Adresse" placeholder="Adresse"> 	
+		<label for="Code_Postal"> Code Postal</label>
+		<input type="text" class="form-control" id="Code_Postal" placeholder="Code_Postal"> 	
+		<label for="Ville">Ville</label>
+		<input type="text" class="form-control" id="Ville" placeholder="Ville"> 			
+		</div>
+		<br/>
+		
+		<div class="form-group">
+		<label for="Hash_trans"> Hash d'une transaction</label>
+		<input type="text" class="form-control" id="Hash_trans" placeholder="Hash_trans">
+		</div>
+		<br/>
+		
+		<div class="form-group">
+		<label for="Hash_bloc">Hash d'un bloc</label>
+		<input type="text" class="form-control" id="Hash_bloc" placeholder="Hash_bloc">
+		</div>
+		<br/>
+		
+		<div class="form-group">
+		<label for="Index_bloc">Index (numéro) de bloc </label>
+		<input type="text" class="form-control" id="Index_bloc" placeholder="Index_bloc">
+		</div>
+		<br/>
+		
+		<button type="reset"  class="btn btn-default"> Annuler </button>
+		<button type="submit" class="btn btn-default"> Envoyer </button>
+		</form>
+		
+	</body>
+</html>
