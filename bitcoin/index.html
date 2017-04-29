@@ -1,11 +1,119 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title> VOTRE TITRE </title>						
+	<link rel="stylesheet" href="../CSS/style1.css"/>
+	<link rel="stylesheet" media="all" type="text/css" href="../CSS/style2.css" />
+
+	<script type="text/javascript" src="../ScriptJS/bitcoin.js" defer></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<link href="https://blackrockdigital.github.io/startbootstrap-sb-admin/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+	<!-- <script type="text/javascript" src="HomePageLoading.js">homePageLoading();</script>  
+	<script>
+	function homePageLoading() {
+    	url = 'apiUrl';
+   	elementID = 'idDeVotreElementHtml';
+    	fonctionRequeteApi(url, elementID);   }
+	</script>
+	-->
 	</head>
+	
 	<body>
-		<h1>Explorateur Bitcoin</h1>
-		<h2>James BOND</h1>
-		<h2>Explorateur Bitcoin</h1>
+		
+		<ul>
+		<li><a  href="../index.html"> TP Blockchain </a></li>
+		<li><a class="active" href="#bitcoin"> Bitcoin </a></li>
+		<li><a href="Explorer/index.html"> Explorer </a></li>
+		</ul>
+		
+		<h1> TP1/ TP2 Blockchain </h1>
+		<h2>Explorateur Bitcoin</h2>
+				
+		<p> <a href="Explorer/index.html"> Explorer index </a> </p>
+		
+		<br/>
+		<br/>
+		
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 col-md-6">
+					<div class="panel panel-yellow">
+						<div class="panel-heading">
+							<div class="row">
+								<div class="col-xs-3">
+									<i class="fa fa-tasks fa-5x"></i>
+								</div>
+								<div class="col-xs-9 text-right">
+									<h2>
+										<span id="bitcoin_block_number"></span>
+									</h2>
+									<div>Blocks</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6">
+					<div class="panel panel-primary">
+						<div class="panel-heading">
+							<div class="row">
+								<div class="col-xs-3">
+									<i class="fa fa-tasks fa-5x"></i>
+								</div>
+								<div class="col-xs-9 text-right">
+									<h2>
+										<span id="bitcoin_network_hash"></span>
+									</h2>
+									<div>Blocks</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6">
+					<div class="panel panel-red">
+						<div class="panel-heading">
+							<div class="row">
+								<div class="col-xs-3">
+									<i class="fa fa-tasks fa-5x"></i>
+								</div>
+								<div class="col-xs-9 text-right">
+									<h2>
+										<span id="bitcoin_blocks"></span>
+									</h2>
+									<div>Blocks</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6">
+					<div class="panel panel-green">
+						<div class="panel-heading">
+							<div class="row">
+								<div class="col-xs-3">
+									<i class="fa fa-money fa-5x"></i>
+								</div>
+								<div class="col-xs-9 text-right">
+									<h2>
+										<span id="bitcoin_usd_price"></span>
+									</h2>
+									<div> / bitcoin</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	
+		
 	</body>
 </html>
