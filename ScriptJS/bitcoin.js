@@ -1,10 +1,3 @@
-/**
- * @author	Albin CAUDERLIER
- * @date	24/02/2017
- * 
- * Script jQuery appelant l'API de BlockCypher.com et affichant les données.
- * 
- */
 
 $(document).ready(function() {
 	$.ajax({
@@ -12,7 +5,7 @@ $(document).ready(function() {
 		dataType : "json",
 		contentType : "application/json; charset=utf-8",
 		type : "GET",
-		timeout: "5000",
+		timeout:	"5000",
 		async : false,
 
 		success : function(data) {
@@ -24,4 +17,5 @@ $(document).ready(function() {
 		}
 	});
 });
+
 
